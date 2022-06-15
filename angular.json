@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-canvas-app": {
+    "circles": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-canvas-app:build:production"
+              "browserTarget": "circles:build:production"
             },
             "development": {
-              "browserTarget": "ng-canvas-app:build:development"
+              "browserTarget": "circles:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -70,7 +70,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-canvas-app:build"
+            "browserTarget": "circles:build"
           }
         },
         "test": {
